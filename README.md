@@ -8,5 +8,7 @@ The games can be controlled using keyboard inputs for snake and pong, and mouse 
 of the first full projects I completed as I was self-teaching Python.
 
 ![Example Snake](data/Example Snake.png)
-![Example Tic Tac Toe](data/Example Tic Tac Toe.png)
-![Example Pong](data/Example Pong.png)
+
+[//]: # (![Example Tic Tac Toe]&#40;data/Example Tic Tac Toe.png&#41;)
+
+[//]: # (![Example Pong]&#40;data/Example Pong.png&#41;)

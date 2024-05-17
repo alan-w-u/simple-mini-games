@@ -142,7 +142,7 @@ while not game_end:
                 sys.exit()
 
             if event.key == pygame.K_TAB:
-                runpy.run_module(mod_name="Simple Mini Games")
+                runpy.run_module(mod_name="simple-minigames")
 
         if event.type == pygame.MOUSEBUTTONDOWN:
 
@@ -372,8 +372,8 @@ while not game_end:
 
                 if event.key == pygame.K_SPACE:
                     game_end = False
-                    runpy.run_module(mod_name="Tic Tac Toe")
+                    runpy.run_module(mod_name="tic-tac-toe")
 
                 if event.key == pygame.K_TAB:
-                    runpy.run_module(mod_name="Simple Mini Games")
+                    runpy.run_module(mod_name="simple-minigames")
  

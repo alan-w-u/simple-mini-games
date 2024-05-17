@@ -94,7 +94,7 @@ while not game_end:
                 sys.exit()
 
             if event.key == pygame.K_TAB:
-                runpy.run_module(mod_name="Simple Mini Games")
+                runpy.run_module(mod_name="simple-minigames")
 
             # Choose Direction
             if event.key == pygame.K_UP or event.key == pygame.K_w:
@@ -172,7 +172,7 @@ while not game_end:
 
                 if event.key == pygame.K_SPACE:
                     game_end = False
-                    runpy.run_module(mod_name="Snake")
+                    runpy.run_module(mod_name="snake")
 
                 if event.key == pygame.K_TAB:
-                    runpy.run_module(mod_name="Simple Mini Games")
+                    runpy.run_module(mod_name="simple-minigames")

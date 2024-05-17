@@ -59,19 +59,19 @@ while project_run:
                 sys.exit()
 
             if event.key == pygame.K_1:
-                runpy.run_module(mod_name="Snake")
+                runpy.run_module(mod_name="snake")
 
             if event.key == pygame.K_2:
-                runpy.run_module(mod_name="Tic Tac Toe")
+                runpy.run_module(mod_name="tic-tac-toe")
 
             if event.key == pygame.K_3:
-                runpy.run_module(mod_name="Pong")
+                runpy.run_module(mod_name="pong")
 
             if event.key == pygame.K_4:
                 num = random.randint(1, 3)
                 if num == 1:
-                    runpy.run_module(mod_name="Snake")
+                    runpy.run_module(mod_name="snake")
                 if num == 2:
-                    runpy.run_module(mod_name="Tic Tac Toe")
+                    runpy.run_module(mod_name="tic-tac-toe")
                 if num == 3:
-                    runpy.run_module(mod_name="Pong")
+                    runpy.run_module(mod_name="pong")
